@@ -1,32 +1,27 @@
-# Food Ecommerce Platform with Chatbot Integration
+# Hardware Store Analytics Platform
 ***
-This repository contains the code for a food restaurant ecommerce platform developed using React for the frontend and Django for the backend. The project includes a Dialogflow chatbot for seamless customer 
-support and automated order processing.
+This repository contains the code for an analytics platform developed for a hardware store using Django. The platform features comprehensive data visualization tools for sales, user behavior, and sentiment analysis.
 
 ***
-
 ## Project Description
-**_NOTE:_** This project is a full-stack ecommerce platform designed for a food restaurant. It allows users to browse and purchase food items online, with a user-friendly interface powered by React. 
-The backend, built with Django, handles all the server-side operations, including order processing and data management. Additionally, a Dialogflow chatbot is integrated to provide customers with instant support and to automate the order process.
+**_NOTE:_** This project is an analytics platform designed for a hardware store. It allows store managers to visualize sales data, track user behavior, and perform sentiment analysis on customer feedback. The backend, built with Django, handles data collection, processing, and analysis.
 
 ### Features
-* User Authentication: Secure login and registration using Django's authentication system.
-* Product Catalog: Display of food items with detailed descriptions, prices, and images.
-* Shopping Cart: Functionality for adding, removing, and updating items in the cart.
-* Order Management: Automated order processing and real-time order status updates.
-* Chatbot Integration: A Dialogflow chatbot for customer support and automated order processing.
+* Data Visualization: Interactive charts and graphs to visualize sales data and user behavior.
+* Sentiment Analysis: Automated sentiment analysis on customer feedback to gauge customer satisfaction.
+* User Roles: Role-based access control to manage user permissions and data access.
+* Revenue Tracking: Detailed reports on product revenue and sales performance.
 
 #### Prerequisites
 * Node.js
 * Python 3.x
 * Django
-* Dialogflow account
-
+* PostgreSQL
 
 
 ### Clone the repository
 ```
-git clone https://github.com/Savoyevatel/food_chatbot
+git clone (https://github.com/Savoyevatel/website_charts)
 ```
 #### Frontend Setup
 
@@ -72,14 +67,11 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### Chatbot Integration
+### Data Visualization and Analysis
 
-The Dialogflow chatbot is integrated into the platform to provide customer support and automate order processing.
+The platform uses Django for data processing and visualization. The data visualization tools include charts and graphs for tracking sales and user behavior.
 
-Dialogflow Setup
-* Create a new agent in Dialogflow.
-* Define intents and entities to handle customer queries and order processing.
-* Integrate the chatbot with the Django backend using Dialogflow's fulfillment feature.
+
 ### Running the Project
 To run the project, ensure both the frontend and backend servers are running simultaneously. The React frontend will interact with the Django backend to process user requests and orders.
 ```
@@ -99,4 +91,4 @@ python manage.py runserver
 
 [React documentation](https://react.dev/)
 
-[Dialog flow documentation](https://cloud.google.com/dialogflow/docs/)
+[NLTK documentation](https://www.nltk.org/)
