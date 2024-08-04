@@ -49,19 +49,19 @@ Navigate to the backend directory
 cd backend
 ```
 
-Create a virtual environment
+### Create a virtual environment
 
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-Install the required packages
+### Install the required packages
 ```
 pip install -r requirements.txt
 ```
 
-Apply migrations and start the Django development server
+### Apply migrations and start the Django development server
 ```
 python manage.py migrate
 python manage.py runserver
